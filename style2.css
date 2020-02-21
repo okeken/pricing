@@ -1,0 +1,90 @@
+.form-container {
+  max-width: 30rem;
+  padding: 2rem 1rem 1rem;
+  margin: 1rem auto;
+  background-color: #ffffff;
+  border-radius: 0.7rem;
+  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
+}
+
+@media (max-width: 411px) {
+  .form-container {
+    width: 90%;
+  }
+}
+
+label {
+  font-weight: 550;
+  transition: all 200ms ease-in;
+}
+
+.form-input {
+  position: relative;
+  padding: 12px 0px 5px 0;
+  width: 100%;
+  outline: 0;
+  border: 0;
+  box-shadow: 0 1px 0 0 #e5e5e5;
+  transition: box-shadow 150ms ease-out;
+}
+
+textarea {
+  height: 10rem;
+}
+.content-head {
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 2em 0 1em;
+}
+.is-center {
+  text-align: center;
+}
+
+button.submit-btn {
+  margin: 1rem auto;
+  border: 0;
+  padding: 0.4rem 2rem;
+  text-align: center;
+  color: #eee;
+  font-weight: 700;
+  text-align: right;
+  background: #ff416c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff4b2b,
+    #ff416c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  transition: all 250ms ease-in;
+}
+
+.submit-btn:hover {
+  opacity: 0.6;
+}
+
+.submit-btn .fa-paper-plane {
+  margin-left: 0.6rem;
+}
+
+.submit-btn:focus {
+  opacity: 0.6;
+}
+
+#name,
+#email,
+textarea,
+#cmp-name {
+  width: 100%;
+}
+
+.thankyou_message {
+  font-size: 1.2rem;
+  font-weight: 700;
+  opacity: 0.8;
+  text-align: center;
+}
